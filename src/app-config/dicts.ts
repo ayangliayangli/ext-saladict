@@ -2,6 +2,7 @@ import { SupportedLangs } from '@/_helpers/lang-check'
 
 import baidu from '@/components/dictionaries/baidu/config'
 import bing from '@/components/dictionaries/bing/config'
+import byd from '@/components/dictionaries/byd/config'
 import ahdict from '@/components/dictionaries/ahdict/config'
 import oaldict from '@/components/dictionaries/oaldict/config'
 import caiyun from '@/components/dictionaries/caiyun/config'
@@ -42,6 +43,7 @@ import zdic from '@/components/dictionaries/zdic/config'
 export const defaultAllDicts = {
   baidu: baidu(),
   bing: bing(),
+  byd: byd(),
   ahdict: ahdict(),
   oaldict: oaldict(),
   caiyun: caiyun(),
@@ -63,7 +65,6 @@ export const defaultAllDicts = {
   mojidict: mojidict(),
   naver: naver(),
   renren: renren(),
-  // shanbay: shanbay(),
   sogou: sogou(),
   tencent: tencent(),
   urban: urban(),
